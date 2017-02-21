@@ -12,7 +12,16 @@
 <input field name="coin_value" placeholder="$ 00.00">
 <input type="submit" value="CALCULATE">
 </br>
-<H2>YOUR TOTAL IS <%=results%> </H2>
+<H2>YOUR CHANGE IS 
+</br> 
+<%=results[:quarters]%> quarters
+</br> 
+<%=results[:dime]%> dimes
+</br> 
+<%=results[:nickel]%> nickels
+</br> 
+<%=results[:penny]%> penny
+</H2>
 
 
 
