@@ -8,9 +8,9 @@
 <center>
 <H1>COIN CHANGER</H1>
 <H2>ENTER AN AMOUNT</H2>
-<form action="result" method="post" >
-<input field name="coin_value" placeholder="$ 00.00">
-<input type="submit" value="CALCULATE">
+<form action="result" method="post">
+<input field name="coin_value" placeholder="$ 00.00" id="amount">
+<input type="submit" value="CALCULATE" onclick=" validateAmount()">
 </br>
 <H2>YOUR CHANGE IS 
 </br> 
@@ -38,6 +38,20 @@
 
 </form>
 </center>
+<!-- Function to verify is your inserting a number -->
+<script>
+	function validateAmount(){
+
+		var val = document.getElementById('amount').value
+		console.log(val);
+		if  (isNaN(val))
+			alert("Insert an amount with numbers!");
+			
+	}
+
+</script>
+
+
 </body>
 </html>
 
