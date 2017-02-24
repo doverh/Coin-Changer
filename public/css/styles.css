@@ -1,0 +1,54 @@
+
+.img-container {
+  min-height: 200px;
+  background-image: url("../images/coins_back.jpg");
+  background-repeat: 4x;
+  background-size: 300px 200px;
+  background-position: center top;
+  /*padding: 40px; (If don't want to set min-height or some image content is there) */
+}
+
+body {
+   	/*-top: 40px;*/
+  background: #403B4A; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #403B4A , #E7E9BB); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+.main_link {
+    color: blue;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.button {
+    position: relative;
+    background-color: #8B0000;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 8px #000000;
+}
+
+.button:hover {background-color: #8B0888}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

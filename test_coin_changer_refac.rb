@@ -3,8 +3,8 @@ require_relative "coin_changer_refac.rb"
 
 class Test_Coin_Charger < Minitest::Test 
 
-def test_double_value
-	assert_equal({:quarters=>7, :dime=>2 , :nickel=>0, :penny=> 4}, calc_change(1.99))
+def test_pass_6
+	assert_equal({:nickel=>1, :penny=> 1}, calc_change(6))
 end
 
 def test_double_value_1_19
