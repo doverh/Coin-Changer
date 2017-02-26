@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html>
-<body>
+
 <center>
 <H1>COIN CHANGER</H1>
 <H2>ENTER AN AMOUNT</H2>
 <form action="result" method="post">
-<input field name="coin_value" placeholder="$ 00.00" id="amount">
+
+<input field name="coin_value" placeholder="$00.00" id="amount" class="input_field">
 
 <button class="button" type="submit" onclick=" validateAmount()">CALCULATE</button>
-</br>
+<br>
+
 <H2>YOUR CHANGE IS 
 </br> 
 <div>
   <img style="vertical-align:middle" src="../images/quarter.png">
   <span style=""><%=results[:quarters]%> </span>
-</div>
-<div>
   <img style="vertical-align:middle" src="../images/dime.png">
   <span style=""><%=results[:dime]%> </span>
-</div> 
-<div>
+
+
   <img style="vertical-align:middle" src="../images/nickel.png">
   <span style=""><%=results[:nickel]%> </span>
-</div>
-</br> 
-<div>
   <img style="vertical-align:middle" src="../images/penny.png">
   <span style=""><%=results[:penny]%> </span>
 </div>
@@ -47,10 +42,6 @@
 	}
 
 </script>
-
-
-</body>
-</html>
 
 
 

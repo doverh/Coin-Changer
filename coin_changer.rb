@@ -26,5 +26,5 @@ def calc_change(num)
 
 end
 
-calc_change(2.39)
+# calc_change(2.39)
 
