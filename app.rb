@@ -20,7 +20,7 @@ end
 
  post '/submit_answer_app' do
   
-  email = JSON.parse(params[:email])
+  #email = JSON.parse(params[:email])
   # input_answer =  params[:input_answer].to_i
   # tokens = params["tokens"].to_i - 1
   # question_id = params["question_id"]
