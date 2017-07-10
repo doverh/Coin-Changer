@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'json'
 require_relative 'coin_changer.rb' 
 enable 'sessions'
 

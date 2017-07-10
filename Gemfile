@@ -1,4 +1,3 @@
 source :rubygems
 gem "sinatra"
-gem "json"
-ruby '2.3.3'
+ruby '2.4.1'
