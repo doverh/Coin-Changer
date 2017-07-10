@@ -31,7 +31,7 @@ end
   # db.close
   #session[:question_id] = ''
   #redirect '/start_game'
-  "Post successful - thanks for the info!#{email}"  # feedback for Xcode console (successful POST)
+  "Post successful - thanks for the info!"  # feedback for Xcode console (successful POST)
 end
 
 
